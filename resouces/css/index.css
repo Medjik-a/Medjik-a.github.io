@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Redhat';
+    src: url('../fonts/RedHatMono-VariableFont_wght.ttf') format('ttf');
+}
+body{
+    font-family: 'Redhat', Courier, monospace;
+    font-size: 16px;
+}
+header{
+    width: 100%;
+}
+header .content{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 3rem;
+    padding: 5px;
+    border: 1px solid black;    
+}
+.logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.logo h1{
+    margin-right: 0.5rem;
+}
+.logo img{
+    width: 10rem;
+    height: 4rem;
+}
+.text h2,.text h3{
+    text-align: center;
+}
+.mission{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/utopia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    width: 100%;
+    background-color: aliceblue;
+}
+.image-container {
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+  }
+  
+.products .images{
+    display: flex;
+    justify-items: space-between;
+    flex-wrap: wrap;
+}
+.products .images .image-container{
+    flex-basis: 400px;
+    margin-right: 40px;
+    height: auto;
+}
+.employees .images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
